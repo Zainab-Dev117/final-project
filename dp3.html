@@ -4,11 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="Description" content="Enter your description here" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
         integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
@@ -18,7 +14,7 @@
 </head>
 
 <body>
-       <div class="navbar">
+    <div class="navbar">
         <div class="logo">
             <h2>quick snacks</h2>
         </div>
@@ -39,9 +35,9 @@
             <a href="bestPurchase.html">best purchase</a>
             <a href="gallery.html">galllery</a>
             <a href="contact.html">contact</a>
-            <div class="dropdown">
-                <a href="categories.html"><button class="dropbtn">Categories</button></a>
-                <div class="dropdown-content">
+            <div class="dropdown-parent">
+                <a href="categories.html"><button class="dropdown-btn">Categories</button></a>
+                <div class="dropdown-links">
                     <a href="c1.html">Healthy Snacks</a>
                     <a href="c2.html">Snacks for Kids</a>
                     <a href="c3.html">Easy on Stomach Snacks</a>
@@ -55,6 +51,9 @@
         </div>
         <div class="search">
             <a href="subscribe.html">subscribe</a>
+        </div>
+        <div class="navmenu"  id="menuToggle" >
+            <i class="fa-solid fa-bars"></i>
         </div>
     </div>
     <!-- navbar -->
@@ -89,15 +88,16 @@
         <div class="contentside">
             <h1>Strawberry Banana Smoothie</h1>
             <hr>
-            <p>A creamy, naturally sweet smoothie made with fresh strawberries and ripe bananas. Perfect for breakfast, post-workout, or a refreshing mid-day treat.</p>
-            <h3>ingredients:</h3>
+            <p>A creamy, naturally sweet smoothie made with fresh strawberries and ripe bananas. Perfect for breakfast,
+                post-workout, or a refreshing mid-day treat.</p>
+            <h3>ingredients with proportions:</h3>
             <ul>
-                <li>Fresh strawberries</li>
-                <li>Ripe banana</li>
-                <li>Cold milk (or almond milk)</li>
-                <li>Greek yogurt (optional for extra creaminess)</li>
-                <li>Ice cubes</li>
-                <li>Honey (optional)</li>
+                <li>Fresh strawberries (1 cup hulled)</li>
+                <li>Ripe banana (1)</li>
+                <li>Cold milk or almond milk (1 cup)</li>
+                <li>Greek yogurt (¼ cup optional for extra creaminess)</li>
+                <li>Ice cubes (½ cup)</li>
+                <li>Honey (1 tablespoon optional)</li>
             </ul>
             <h3>Why You’ll Love It:</h3>
             <ul>
@@ -109,11 +109,28 @@
             <h3>Quality Tips:</h3>
             <ul>
                 <li>Use fully ripe bananas for natural sweetness (less need for sugar).</li>
+                <li>Use frozen strawberries instead of ice cubes for a thicker texture.</li>
+                <li>Substitute Greek yogurt with plant-based yogurt for a vegan version.</li>
+                <li>Add a teaspoon of chia seeds or flaxseeds for extra nutrition.</li>
                 <li>Choose fresh, bright red strawberries for best flavor.</li>
                 <li>Use chilled milk for a thicker and colder smoothie.</li>
                 <li>Add Greek yogurt for extra protein and creaminess.</li>
                 <li>Blend until completely smooth for perfect texture.</li>
             </ul>
+            <h3>detailed recipe</h3>
+            <p>Strawberry Banana Smoothie is a quick and delicious snack or breakfast option that combines the natural
+                sweetness of fresh fruit with the creaminess of yogurt and milk. To prepare it, start by adding 1 cup of
+                fresh, ripe strawberries and one perfectly ripe banana into a blender. For a smooth and creamy
+                consistency, pour in 1 cup of cold milk, or use almond milk for a dairy-free alternative. To make the
+                smoothie richer and thicker, add ¼ cup of Greek yogurt, which also adds a boost of protein and
+                probiotics. Toss in ½ cup of ice cubes to keep the drink chilled and refreshing.
+            </p>
+            <p>Blend all the ingredients on high speed until you achieve a smooth, creamy texture with no lumps. Taste
+                the smoothie and, if desired, add 1 tablespoon of honey or maple syrup for a touch of extra sweetness.
+                Pour the vibrant pink smoothie into a tall glass and serve immediately to enjoy a naturally sweet,
+                fruity, and refreshing drink. This smoothie is not only delicious but also packed with vitamins,
+                minerals, and fiber, making it a perfect energizing treat for any time of the day
+            </p>
             <a href="c4.html"><button>back to snacks</button></a>
 
         </div>
@@ -139,8 +156,8 @@
                 <a href="c1.html">
                     <li>recipes</li>
                 </a>
-                <a href="contact.html">
-                    <li>site map</li>
+                <a href="contact.html#location">
+                    <li>our location</li>
                 </a>
             </ul>
             <a href="gallery.html">galllery</a>
@@ -196,15 +213,7 @@
     <div class="gototop">
         <a href="#top">&And;</a>
     </div>
-
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
-
-
-
-   
-    
+    <script src="assets/script.js"></script>
 </body>
 
 </html>

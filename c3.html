@@ -4,11 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="Description" content="Enter your description here" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
         integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
@@ -39,9 +35,9 @@
             <a href="bestPurchase.html">best purchase</a>
             <a href="gallery.html">galllery</a>
             <a href="contact.html">contact</a>
-            <div class="dropdown">
-                <a href="categories.html"><button class="dropbtn">Categories</button></a>
-                <div class="dropdown-content">
+            <div class="dropdown-parent">
+                <a href="categories.html"><button class="dropdown-btn">Categories</button></a>
+                <div class="dropdown-links">
                     <a href="c1.html">Healthy Snacks</a>
                     <a href="c2.html">Snacks for Kids</a>
                     <a href="c3.html">Easy on Stomach Snacks</a>
@@ -56,77 +52,85 @@
         <div class="search">
             <a href="subscribe.html">subscribe</a>
         </div>
+        <div class="navmenu"  id="menuToggle" >
+            <i class="fa-solid fa-bars"></i>
+        </div>
     </div>
 
-    <div class="parentofabout">
-        <div class="about-img" id="c3-background">
-            <h1>easy on Stomach snacks</h1>
+    <div class="about-img" id="c3-background">
+        <h1>easy on Stomach snacks</h1>
+    </div>
+    <div class="card-heading">
+        <h4>ultimate easy on stomach snacks recipes</h4>
+    </div>
+    <div class="parentofcards" id="top">
+
+
+        <div class="card">
+            <img src="assets/cards-images/c5-img.jpg" alt="fries image">
+            <h3>french fries</h3>
+            <p>This is my go-to comfort snack when I want something warm, crispy, and satisfying without feeling too
+                heavy. Just slice some potatoes, rinse off the excess starch, and fry or air-fry them until golden and
+                crisp. Sprinkle with a little salt, maybe a touch of paprika or black pepper, and serve hot. They’re
+                light, crunchy on the outside, soft on the inside, and super easy on the stomach when kept simple.</p>
+            </p>
+            <a href="dp5.html"><button>get the recipe</button></a>
         </div>
-        <div class="card-heading">
-            <h4>ultimate easy on stomach snacks recipes</h4>
+        <div class="card">
+            <img src="assets/cards-images/easy-card3.jpg" alt="Lightly Salted Baked Potato Chips image">
+            <h3>Lightly Salted Baked Potato Chips</h3>
+            <p>When you’re craving something crunchy but don’t want heavy, spicy snacks, lightly salted baked potato
+                chips are a great option. Thin slices of potato baked until crisp with just a touch of salt give you
+                that classic crunch without too much oil.
+            </p>
+            <p>The only mistake is choosing overly spicy or greasy chips that can feel heavy.
+            </p>
+            <a href="#"><button>get the recipe</button></a>
         </div>
-        <div class="parentofcards" id="top">
-
-
-            <div class="card">
-                <img src="assets/cards-images/c5-img.jpg" alt="fries image">
-                <h3>french fries</h3>
-                <p>This is my go-to comfort snack when I want something warm, crispy, and satisfying without feeling too
-                    heavy. Just slice some potatoes, rinse off the excess starch, and fry or air-fry them until golden
-                    and crisp. Sprinkle with a little salt, maybe a touch of paprika or black pepper, and serve hot.
-                    They’re light, crunchy on the outside, soft on the inside, and super easy on the stomach when kept
-                    simple.
-                </p>
-                <p>The only way you can mess this up is by overcooking them until they turn too dark or loading them
-                    with too much seasoning — so keep them golden, lightly salted, and perfectly crisp for the best
-                    flavor and texture.
-                </p>
-                <a href="dp5.html"><button>get the recipe</button></a>
-            </div>
-            <div class="card">
-                <img src="assets/cards-images/easy-card2.jpg" alt="Plain Rice & Yogurt Bowl image">
-                <h3>Plain Rice & Yogurt Bowl</h3>
-                <p>This is one of the simplest and most comforting light meals you can have. Just mix soft, freshly cooked rice with cool, fresh yogurt and a small pinch of salt. It’s mild, soothing, and perfect when you want something gentle and satisfying.
-                </p>
-                <p>The only way this can go wrong is by using sour yogurt or dry rice. Make sure the rice is soft and the yogurt is fresh so the texture stays creamy and easy to eat.
-                </p>
-                <a href="#"><button>get the recipe</button></a>
-            </div>
-            <div class="card">
-                <img src="assets/cards-images/easy-card3.jpg" alt="Lightly Salted Baked Potato Chips image">
-                <h3>Lightly Salted Baked Potato Chips</h3>
-                <p>When you’re craving something crunchy but don’t want heavy, spicy snacks, lightly salted baked potato chips are a great option. Thin slices of potato baked until crisp with just a touch of salt give you that classic crunch without too much oil.
-                </p>
-                <p>The only mistake is choosing overly spicy or greasy chips that can feel heavy. Keep it simple, lightly salted, and baked so it stays easy and mild.
-                </p>
-                <a href="#"><button>get the recipe</button></a>
-            </div>
-            <div class="card">
-                <img src="assets/cards-images/easy-card4.jpg" alt="Plain Digestive Biscuits image">
-                <h3>Plain Digestive Biscuits</h3>
-                <p>This is a simple snack that works perfectly with tea or warm milk. Lightly sweet digestive biscuits made with whole wheat are mild in flavor and easy to enjoy without overwhelming your stomach.
-                </p>
-                <p>The only thing to avoid is eating too many at once or choosing overly sugary versions. Stick to plain, lightly sweet biscuits so the snack stays gentle and balanced.
-                </p>
-                <a href="#"><button>get the recipe</button></a>
-            </div>
-            <div class="card">
-                <img src="assets/cards-images/easy-card5.jpg" alt="Toast with Honey image">
-                <h3>Toast with Honey</h3>
-                <p>This is one of the simplest and most comforting snacks when you want something light and easy. Just toast a slice of soft bread until golden and spread a thin layer of honey on top. It’s mildly sweet, warm, and very gentle on the stomach.
-                </p>
-                <p>The only mistake to avoid is over-toasting the bread or adding too much honey. Keep it lightly crisp and balanced so it stays soft, soothing, and easy to digest.
-                </p>
-                <a href="#"><button>get the recipe</button></a>
-            </div>
-
+        <div class="card">
+            <img src="assets/cards-images/easy-card2.jpg" alt="Plain Rice & Yogurt Bowl image">
+            <h3>Plain Rice & Yogurt Bowl</h3>
+            <p>This is one of the simplest and most comforting light meals you can have. Just mix soft, and freshly
+                cooked rice with cool, and fresh yogurt andfresh yogurtand and a small pinch of salt. It’s mild,
+                soothing, and perfect when you want something gentle and satisfying. The only way this can go wrong is
+                by using sour yogurt or dry rice. Make sure the rice is soft and the yogurt is fresh so the texture
+                stays creamy and easy to eat.
+            </p>
+            <a href="#"><button>get the recipe</button></a>
         </div>
-
+        <div class="card">
+            <img src="assets/cards-images/easy-card4.jpg" alt="Plain Digestive Biscuits image">
+            <h3>Plain Digestive Biscuits</h3>
+            <p>This is a simple snack that works perfectly with tea or warm milk. Lightly sweet digestive biscuits
+                made with whole wheat are mild in flavor and easy to enjoy without overwhelming your stomach. let it set properly for that smooth, glossy finish.
+            </p>
+            <p>The only thing to avoid is eating too many at once or choosing overly sugary versions. Stick to
+                plain, lightly sweet biscuits so the snack stays gentle and balanced.
+            </p>
+            <a href="#"><button>get the recipe</button></a>
+        </div>
+        <div class="card">
+            <img src="assets/cards-images/easy-card5.jpg" alt="Toast with Honey image">
+            <h3>Toast with Honey</h3>
+            <p>This is one of the simplest and most comforting snacks when you want something light and easy. Just
+                toast a slice of soft bread until golden and spread a thin layer of honey on top. It’s mildly sweet,
+                warm, and very gentle on the stomach.let it set properly for that smooth, glossy finish.
+            </p>
+            <p>The only mistake to avoid is over-toasting the bread or adding too much honey. Keep it lightly crisp
+                and balanced so it stays soft.
+            </p>
+            <a href="#"><button>get the recipe</button></a>
+        </div>
+        <div class="card">
+            <img src="assets/cards-images/easy-card6.jpg" alt="Steamed Vegetable Muffins image">
+            <h3>Steamed Vegetable Muffins</h3>
+            <p>This is one of the gentlest and most comforting snacks when you want something light and easy on the stomach. Just mix finely grated carrots, zucchini, or pumpkin into a simple batter and steam until soft and fluffy. Each bite is warm, tender, soothing, making it perfect for sensitive tummies. You can sprinkle a few seeds on top for nutrition and vitamins.let it set properly for that glossy and smooth finish.
+            </p>
+            <a href="#"><button>get the recipe</button></a>
+        </div>
 
     </div>
-
-
-                <!-- card end footer start -->
+    <!-- card end footer start -->
     <div class="foot-line"></div>
     <div class="footer">
         <div class="child1">
@@ -147,8 +151,8 @@
                 <a href="c1.html">
                     <li>recipes</li>
                 </a>
-                <a href="contact.html">
-                    <li>site map</li>
+                <a href="contact.html#location">
+                    <li>our location</li>
                 </a>
             </ul>
             <a href="gallery.html">galllery</a>
@@ -159,11 +163,21 @@
         <div class="child2">
             <h5>legal</h5>
             <ul>
-                <a href="about.html#terms&conditions"><li>Terms & Conditions</li></a>
-                <a href="about.html#privacy"><li>Privacy Policy</li></a>
-                <a href="about.html#Editorial"><li>Editorial Policy</li></a>
-                <a href="about.html#contest"><li>Contest</li></a>
-                <a href="about.html#sellorshare"><li>do not sell or share my information</li></a>
+                <a href="about.html#terms&conditions">
+                    <li>Terms & Conditions</li>
+                </a>
+                <a href="about.html#privacy">
+                    <li>Privacy Policy</li>
+                </a>
+                <a href="about.html#Editorial">
+                    <li>Editorial Policy</li>
+                </a>
+                <a href="about.html#contest">
+                    <li>Contest</li>
+                </a>
+                <a href="about.html#sellorshare">
+                    <li>do not sell or share my information</li>
+                </a>
             </ul>
             <div class="foot-btn">
                 <a href="subscribe.html"><button>subscribe</button></a>
@@ -176,10 +190,14 @@
             <p>Quick Bites. Pure Delight.</p>
             <input type="text" placeholder="Search..">
             <div class="foot-icons">
-                <a href="https://www.tiktok.com/@foodfusionpk?lang=en" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
-                <a href="https://www.pinterest.com/cookingclassy/food-photography/" target="_blank"><i class="fa-brands fa-pinterest"></i></a>
-                <a href="https://www.facebook.com/FoodFusionPK/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
-                <a href="https://www.instagram.com/foodfusionpk/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.tiktok.com/@foodfusionpk?lang=en" target="_blank"><i
+                        class="fa-brands fa-tiktok"></i></a>
+                <a href="https://www.pinterest.com/cookingclassy/food-photography/" target="_blank"><i
+                        class="fa-brands fa-pinterest"></i></a>
+                <a href="https://www.facebook.com/FoodFusionPK/" target="_blank"><i
+                        class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/foodfusionpk/" target="_blank"><i
+                        class="fa-brands fa-instagram"></i></a>
                 <a href="https://www.youtube.com/@FoodfusionPk" target="_blank"><i class="fa-brands fa-youtube"></i></a>
             </div>
 
@@ -190,9 +208,8 @@
     <div class="gototop">
         <a href="#top">&And;</a>
     </div>
+  <script src="assets/script.js"></script>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
 </body>
 
 </html>

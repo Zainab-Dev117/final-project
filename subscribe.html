@@ -4,16 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="Description" content="Enter your description here" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
         integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="assets/style.css">
     <title>Genius Tips, Tricks & stunning taste, Straight To Your Inbox Every Day.</title>
 </head>
 
@@ -39,9 +35,9 @@
             <a href="bestPurchase.html">best purchase</a>
             <a href="gallery.html">galllery</a>
             <a href="contact.html">contact</a>
-            <div class="dropdown">
-                <a href="categories.html"><button class="dropbtn">Categories</button></a>
-                <div class="dropdown-content">
+            <div class="dropdown-parent">
+                <a href="categories.html"><button class="dropdown-btn">Categories</button></a>
+                <div class="dropdown-links">
                     <a href="c1.html">Healthy Snacks</a>
                     <a href="c2.html">Snacks for Kids</a>
                     <a href="c3.html">Easy on Stomach Snacks</a>
@@ -55,6 +51,9 @@
         </div>
         <div class="search">
             <a href="subscribe.html">subscribe</a>
+        </div>
+        <div class="navmenu"  id="menuToggle" >
+            <i class="fa-solid fa-bars"></i>
         </div>
     </div>
     <!-- navbar done -->
@@ -74,7 +73,7 @@
     </div>
 
 
-        <div class="foot-line"></div>
+    <div class="foot-line"></div>
     <div class="footer">
         <div class="child1">
             <h5>company</h5>
@@ -94,8 +93,8 @@
                 <a href="c1.html">
                     <li>recipes</li>
                 </a>
-                <a href="contact.html">
-                    <li>site map</li>
+                <a href="contact.html#location">
+                    <li>our location</li>
                 </a>
             </ul>
             <a href="gallery.html">galllery</a>
@@ -106,11 +105,21 @@
         <div class="child2">
             <h5>legal</h5>
             <ul>
-                <a href="about.html#terms&conditions"><li>Terms & Conditions</li></a>
-                <a href="about.html#privacy"><li>Privacy Policy</li></a>
-                <a href="about.html#Editorial"><li>Editorial Policy</li></a>
-                <a href="about.html#contest"><li>Contest</li></a>
-                <a href="about.html#sellorshare"><li>do not sell or share my information</li></a>
+                <a href="about.html#terms&conditions">
+                    <li>Terms & Conditions</li>
+                </a>
+                <a href="about.html#privacy">
+                    <li>Privacy Policy</li>
+                </a>
+                <a href="about.html#Editorial">
+                    <li>Editorial Policy</li>
+                </a>
+                <a href="about.html#contest">
+                    <li>Contest</li>
+                </a>
+                <a href="about.html#sellorshare">
+                    <li>do not sell or share my information</li>
+                </a>
             </ul>
             <div class="foot-btn">
                 <a href="subscribe.html"><button>subscribe</button></a>
@@ -123,10 +132,14 @@
             <p>Quick Bites. Pure Delight.</p>
             <input type="text" placeholder="Search..">
             <div class="foot-icons">
-                <a href="https://www.tiktok.com/@foodfusionpk?lang=en" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
-                <a href="https://www.pinterest.com/cookingclassy/food-photography/" target="_blank"><i class="fa-brands fa-pinterest"></i></a>
-                <a href="https://www.facebook.com/FoodFusionPK/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
-                <a href="https://www.instagram.com/foodfusionpk/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.tiktok.com/@foodfusionpk?lang=en" target="_blank"><i
+                        class="fa-brands fa-tiktok"></i></a>
+                <a href="https://www.pinterest.com/cookingclassy/food-photography/" target="_blank"><i
+                        class="fa-brands fa-pinterest"></i></a>
+                <a href="https://www.facebook.com/FoodFusionPK/" target="_blank"><i
+                        class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/foodfusionpk/" target="_blank"><i
+                        class="fa-brands fa-instagram"></i></a>
                 <a href="https://www.youtube.com/@FoodfusionPk" target="_blank"><i class="fa-brands fa-youtube"></i></a>
             </div>
 
@@ -138,9 +151,8 @@
         <a href="#top">&And;</a>
     </div>
 
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+    <script src="assets/script.js"></script>
 </body>
+
 
 </html>

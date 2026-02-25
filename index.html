@@ -4,17 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="Description" content="Enter your description here" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
         integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="assets/style.css">
-    <title>48 Easy Snacks to Make at Home (Beyond Cheese & Crackers for the 1,000th Time)</title>
+    <title>36 Easy Snacks to Make at Home (Beyond Cheese & Crackers for the 1,000th Time)</title>
 </head>
+
 
 <body>
     <div class="navbar">
@@ -31,16 +28,16 @@
             <a href="https://www.youtube.com/@FoodfusionPk" target="_blank"><i class="fa-brands fa-youtube"></i></a>
         </div>
     </div>
-    <div class="nav-links">
-        <div class="links">
+    <div class="nav-links" >
+        <div class="links"  id="navLinks" >
             <a href="index.html">home</a>
             <a href="about.html">about</a>
             <a href="bestPurchase.html">best purchase</a>
             <a href="gallery.html">galllery</a>
             <a href="contact.html">contact</a>
-            <div class="dropdown">
-                <a href="categories.html"><button class="dropbtn">Categories</button></a>
-                <div class="dropdown-content">
+            <div class="dropdown-parent">
+                <a href="categories.html"><button class="dropdown-btn">Categories</button></a>
+                <div class="dropdown-links">
                     <a href="c1.html">Healthy Snacks</a>
                     <a href="c2.html">Snacks for Kids</a>
                     <a href="c3.html">Easy on Stomach Snacks</a>
@@ -55,13 +52,16 @@
         <div class="search">
             <a href="subscribe.html">subscribe</a>
         </div>
+        <div class="navmenu"  id="menuToggle" >
+            <i class="fa-solid fa-bars"></i>
+        </div>
     </div>
     <!-- navbar close and header started -->
     <div class="cat-food" id="top">
         <p>food</p>
     </div>
     <div class="hero">
-        <h1>48 Easy Snacks to Make at Home (Beyond Cheese & Crackers for the 1,000th Time)</h1>
+        <h1>36 Easy Snacks to Make at Home (Beyond Cheese & Crackers for the 1,000th Time)</h1>
         <h2>Go ahead, graze all day</h2>
         <hr class="dividerline">
         <div class="hero-img">
@@ -131,60 +131,66 @@
     </div>
     <div class="parentofcards">
         <div class="card">
-            <img src="assets/cards-images/c1-img.jpg" alt="Chia Berry Energy Bowl image">
-            <h3>Chia Berry Energy Bowl</h3>
-            <p>This is one of those bowls that looks super healthy and Instagram-worthy, but takes almost no time to prepare. Just mix chia seeds with your favorite milk, let them soak until thick and pudding-like, then top with fresh berries, a drizzle of honey, and a sprinkle of nuts or seeds. The result? It’s creamy! It’s fruity! It’s naturally sweet with a refreshing burst of flavor in every spoonful!
-            </p>
-            <p>The only way you can mess this up is by not letting the chia seeds soak long enough — give them at least 2–4 hours (or overnight) so they fully absorb the liquid and create that perfectly smooth, pudding-like texture.
-            </p>
-            <a href="dp1.html"><button>get the recipe</button></a>
-        </div> 
-        <div class="card">
-            <img src="assets/cards-images/c2-img.jpg" alt="pizza bread toast image">
-            <h3>hailey bieber's pizza toast</h3>
-            <p>This is my favorite quick snack that feels fancy but takes almost no effort. Just toast a slice of sourdough, spread marinara sauce, add fresh mozzarella, and bake until the cheese is melted and bubbly. Finish with oregano, chili flakes, and a drizzle of olive oil. It’s crispy, cheesy, and full of flavor in every bite!
-            </p>
-            <p>The only way you can mess this up is by overloading it with sauce and making the bread soggy — so keep it balanced and let the toast stay perfectly crisp.
-            </p>
-            <a href="dp2.html"><button>get the recipe</button></a>
-        </div> 
-        <div class="card">
-            <img src="assets/cards-images/c3-img.jpg" alt="Strawberry banana smoothie">
-            <h3>Strawberry Banana Smoothie</h3>
-            <p>This is my go-to smoothie when I want something quick, creamy, and refreshing. Just blend fresh strawberries, ripe banana, chilled milk (or yogurt), and a touch of honey until smooth and silky. It’s sweet! It’s fruity! It’s creamy and perfectly refreshing in every sip!
-            </p>
-            <p>The only way you can mess this up is by skipping the ice or using unripe bananas — so make sure your fruit is ripe and your smoothie is served nice and cold.
-            </p>
-            <a href="dp3.html"><button>get the recipe</button></a>
-        </div> 
-        <div class="card">
             <img src="assets/cards-images/c4-img.jpg" alt="Chocolate-kiwi image">
             <h3>Chocolate-kiwi</h3>
-            <p>This is one of those snacks that looks fancy but takes almost no time to make. Just slice fresh kiwi, dip each piece into melted dark chocolate, and let it set until perfectly coated. The result? It’s fruity! It’s chocolaty! It’s sweet with a refreshing tang in every bite!
+            <p>This is one of those snacks that looks fancy but takes almost no time to make. Just slice fresh kiwi, dip
+                each piece into melted dark chocolate, and let it set until perfectly coated. The result? It’s fruity!
+                It’s chocolaty! It’s sweet with a refreshing tang in every bite!
             </p>
-            <p>The only way you can mess this up is by dipping wet kiwi slices — make sure to pat them dry first so the chocolate sticks smoothly and sets beautifully.
+            <p>The only way you can mess this up is by dipping wet kiwi slices — make sure to pat them dry first so the
+                chocolate sticks smoothly and sets beautifully.
             </p>
             <a href="dp4.html"><button>get the recipe</button></a>
-        </div> 
+        </div>
         <div class="card">
             <img src="assets/cards-images/c5-img.jpg" alt="fries image">
             <h3>french fries</h3>
-            <p>This is my go-to comfort snack when I want something warm, crispy, and satisfying without feeling too heavy. Just slice some potatoes, rinse off the excess starch, and fry or air-fry them until golden and crisp. Sprinkle with a little salt, maybe a touch of paprika or black pepper, and serve hot. They’re light, crunchy on the outside, soft on the inside, and super easy on the stomach when kept simple.
-            </p>
-            <p>The only way you can mess this up is by overcooking them until they turn too dark or loading them with too much seasoning — so keep them golden, lightly salted, and perfectly crisp for the best flavor and texture.
+            <p>This is my go-to comfort snack when I want something warm, crispy, and satisfying without feeling too
+                heavy. Just slice some potatoes, rinse off the excess starch, and fry or air-fry them until golden and
+                crisp. Sprinkle with a little salt, maybe a touch of paprika or black pepper, and serve hot. They’re
+                light, crunchy on the outside, soft on the inside, and super easy on the stomach when kept simple.</p>
             </p>
             <a href="dp5.html"><button>get the recipe</button></a>
-        </div> 
+        </div>
+        <div class="card">
+            <img src="assets/cards-images/c2-img.jpg" alt="pizza bread toast image">
+            <h3>hailey bieber's pizza toast</h3>
+            <p>This is my favorite quick snack that feels fancy but takes almost no effort. Just toast a slice of
+                sourdough, spread marinara sauce, add fresh mozzarella, and bake until the cheese is melted and bubbly.
+                Finish with oregano, chili flakes, and a drizzle of olive oil. It’s crispy, cheesy, and full of flavor
+                in every bite! The only way you can mess this up is by overloading it.
+            </p>
+            <a href="dp2.html"><button>get the recipe</button></a>
+        </div>
+        <div class="card">
+            <img src="assets/cards-images/c1-img.jpg" alt="Chia Berry Energy Bowl image">
+            <h3>Chia Berry Energy Bowl</h3>
+            <p>This is one of those bowls that looks super healthy and Instagram-worthy, but takes almost no time to
+                prepare. Just mix chia seeds with your favorite milk, let them soak until thick and pudding-like, then
+                top with fresh berries, a drizzle of honey, and a sprinkle of nuts or seeds. The result? It’s creamy!
+                It’s fruity! It’s naturally sweet with a refreshing burst of flavor in every spoonful!
+            </p>
+            <a href="dp1.html"><button>get the recipe</button></a>
+        </div>
+        <div class="card">
+            <img src="assets/cards-images/c3-img.jpg" alt="Strawberry banana smoothie">
+            <h3>Strawberry Banana Smoothie</h3>
+            <p>This is my go-to smoothie when I want something quick, creamy, and refreshing. Just blend fresh
+                strawberries, ripe banana, chilled milk (or yogurt), and a touch of honey until smooth and silky. It’s
+                sweet! It’s fruity! It’s creamy and perfectly refreshing in every sip! The only way you can mess this up
+                is by skipping the ice</p>
+            <a href="dp3.html"><button>get the recipe</button></a>
+        </div>
         <div class="card">
             <img src="assets/cards-images/c6-img.jpg" alt="protien shake image">
             <h3>protien iced coffee</h3>
-            <p>This is my go-to gym drink when I want something cold, energizing, and packed with protein without feeling heavy. Just brew a strong shot of coffee (or use chilled instant coffee), let it cool, then blend it with milk, a scoop of vanilla or chocolate protein powder, and a handful of ice. Shake or blend until smooth and frothy. It’s creamy, refreshing, slightly sweet, and gives you that perfect combo of caffeine kick and muscle-fueling protein.
-            </p>
-            <p>The only way you can mess this up is by adding too much sweetener or not mixing the protein properly — so blend it well, keep the flavors balanced, and enjoy it ice-cold for the best taste and texture.
+            <p>This is my go-to gym drink when I want something cold, energizing, and packed with protein without
+                feeling heavy. Just brew a strong shot of coffee (or use chilled instant coffee), let it cool, then
+                blend it with milk, a scoop of vanilla or chocolate protein powder, and a handful of ice. Shake or blend
+                until smooth and frothy. It’s creamy, refreshing, slightly and sweet, gives you the perfect combo.
             </p>
             <a href="dp6.html"><button>get the recipe</button></a>
-        </div> 
-
+        </div>
     </div>
     <div class="homebtn">
         <a href="c1.html"><button>see more</button></a>
@@ -210,8 +216,8 @@
                 <a href="c1.html">
                     <li>recipes</li>
                 </a>
-                <a href="contact.html">
-                    <li>site map</li>
+                <a href="contact.html#location">
+                    <li>our location</li>
                 </a>
             </ul>
             <a href="gallery.html">galllery</a>
@@ -222,11 +228,21 @@
         <div class="child2">
             <h5>legal</h5>
             <ul>
-                <a href="about.html#terms&conditions"><li>Terms & Conditions</li></a>
-                <a href="about.html#privacy"><li>Privacy Policy</li></a>
-                <a href="about.html#Editorial"><li>Editorial Policy</li></a>
-                <a href="about.html#contest"><li>Contest</li></a>
-                <a href="about.html#sellorshare"><li>do not sell or share my information</li></a>
+                <a href="about.html#terms&conditions">
+                    <li>Terms & Conditions</li>
+                </a>
+                <a href="about.html#privacy">
+                    <li>Privacy Policy</li>
+                </a>
+                <a href="about.html#Editorial">
+                    <li>Editorial Policy</li>
+                </a>
+                <a href="about.html#contest">
+                    <li>Contest</li>
+                </a>
+                <a href="about.html#sellorshare">
+                    <li>do not sell or share my information</li>
+                </a>
             </ul>
             <div class="foot-btn">
                 <a href="subscribe.html"><button>subscribe</button></a>
@@ -239,10 +255,14 @@
             <p>Quick Bites. Pure Delight.</p>
             <input type="text" placeholder="Search..">
             <div class="foot-icons">
-                <a href="https://www.tiktok.com/@foodfusionpk?lang=en" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
-                <a href="https://www.pinterest.com/cookingclassy/food-photography/" target="_blank"><i class="fa-brands fa-pinterest"></i></a>
-                <a href="https://www.facebook.com/FoodFusionPK/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
-                <a href="https://www.instagram.com/foodfusionpk/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.tiktok.com/@foodfusionpk?lang=en" target="_blank"><i
+                        class="fa-brands fa-tiktok"></i></a>
+                <a href="https://www.pinterest.com/cookingclassy/food-photography/" target="_blank"><i
+                        class="fa-brands fa-pinterest"></i></a>
+                <a href="https://www.facebook.com/FoodFusionPK/" target="_blank"><i
+                        class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/foodfusionpk/" target="_blank"><i
+                        class="fa-brands fa-instagram"></i></a>
                 <a href="https://www.youtube.com/@FoodfusionPk" target="_blank"><i class="fa-brands fa-youtube"></i></a>
             </div>
 
@@ -253,10 +273,9 @@
     <div class="gototop">
         <a href="#top">&And;</a>
     </div>
+    <script src="assets/script.js"></script>
 
 </body>
-<script src="assets/main.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+
 
 </html>

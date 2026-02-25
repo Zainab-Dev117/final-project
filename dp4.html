@@ -4,11 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="Description" content="Enter your description here" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
         integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
@@ -18,7 +14,7 @@
 </head>
 
 <body>
-     <div class="navbar">
+    <div class="navbar">
         <div class="logo">
             <h2>quick snacks</h2>
         </div>
@@ -39,9 +35,9 @@
             <a href="bestPurchase.html">best purchase</a>
             <a href="gallery.html">galllery</a>
             <a href="contact.html">contact</a>
-            <div class="dropdown">
-                <a href="categories.html"><button class="dropbtn">Categories</button></a>
-                <div class="dropdown-content">
+            <div class="dropdown-parent">
+                <a href="categories.html"><button class="dropdown-btn">Categories</button></a>
+                <div class="dropdown-links">
                     <a href="c1.html">Healthy Snacks</a>
                     <a href="c2.html">Snacks for Kids</a>
                     <a href="c3.html">Easy on Stomach Snacks</a>
@@ -55,6 +51,9 @@
         </div>
         <div class="search">
             <a href="subscribe.html">subscribe</a>
+        </div>
+        <div class="navmenu"  id="menuToggle" >
+            <i class="fa-solid fa-bars"></i>
         </div>
     </div>
     <!-- navbar -->
@@ -89,14 +88,15 @@
         <div class="contentside">
             <h1>Chocolate Kiwi Pops</h1>
             <hr>
-            <p>A fun and refreshing treat made with juicy kiwi slices coated in smooth melted chocolate. Perfect for summer cravings and healthy dessert lovers.</p>
-            <h3>ingredients:</h3>
+            <p>A fun and refreshing treat made with juicy kiwi slices coated in smooth melted chocolate. Perfect for
+                summer cravings and healthy dessert lovers.</p>
+            <h3>ingredients with proportions:</h3>
             <ul>
-                <li>Fresh kiwi (peeled & sliced thick)</li>
-                <li>Dark or milk chocolate (melted)</li>
-                <li>Wooden sticks</li>
-                <li>White chocolate (for drizzle, optional)</li>
-                <li>Coconut flakes or crushed nuts (optional topping)</li>
+                <li>Fresh kiwi (2 peeled & sliced thick)</li>
+                <li>Dark or milk chocolate (1 cup melted)</li>
+                <li>Wooden sticks (6–8)</li>
+                <li>White chocolate (2 tablespoons for drizzle, optional)</li>
+                <li>Coconut flakes or crushed nuts (2 tablespoons optional topping)</li>
             </ul>
             <h3>Why You’ll Love It:</h3>
             <ul>
@@ -113,6 +113,8 @@
                 <li>Place pops on parchment paper while chilling.</li>
                 <li>Refrigerate until chocolate is fully set before serving.</li>
             </ul>
+            <h3>detailed recipe</h3>
+            <p>To make Chocolate Kiwi, peel 2 fresh kiwis and slice them into thick, even rounds, then gently insert wooden sticks into each slice. Melt 1 cup of dark or milk chocolate until smooth and glossy using a microwave or double boiler. Dip each kiwi slice into the melted chocolate, ensuring it is fully coated, and place it on parchment paper. If desired, drizzle 2 tablespoons of melted white chocolate over the top and sprinkle 2 tablespoons of coconut flakes or crushed nuts for added texture. Refrigerate for 15–20 minutes until the chocolate sets completely, then serve chilled for a perfectly sweet and tangy treat.</p>
             <a href="c6.html"><button>back to snacks</button></a>
 
         </div>
@@ -138,8 +140,8 @@
                 <a href="c1.html">
                     <li>recipes</li>
                 </a>
-                <a href="contact.html">
-                    <li>site map</li>
+                <a href="contact.html#location">
+                    <li>our location</li>
                 </a>
             </ul>
             <a href="gallery.html">galllery</a>
@@ -195,10 +197,7 @@
     <div class="gototop">
         <a href="#top">&And;</a>
     </div>
-
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+    <script src="assets/script.js"></script>
 </body>
 
 </html>

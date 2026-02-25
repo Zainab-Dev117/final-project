@@ -4,11 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="Description" content="Enter your description here" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
         integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
@@ -39,9 +35,9 @@
             <a href="bestPurchase.html">best purchase</a>
             <a href="gallery.html">galllery</a>
             <a href="contact.html">contact</a>
-            <div class="dropdown">
-                <a href="categories.html"><button class="dropbtn">Categories</button></a>
-                <div class="dropdown-content">
+            <div class="dropdown-parent">
+                <a href="categories.html"><button class="dropdown-btn">Categories</button></a>
+                <div class="dropdown-links">
                     <a href="c1.html">Healthy Snacks</a>
                     <a href="c2.html">Snacks for Kids</a>
                     <a href="c3.html">Easy on Stomach Snacks</a>
@@ -55,6 +51,9 @@
         </div>
         <div class="search">
             <a href="subscribe.html">subscribe</a>
+        </div>
+        <div class="navmenu"  id="menuToggle" >
+            <i class="fa-solid fa-bars"></i>
         </div>
     </div>
     <!-- navbar -->
@@ -89,15 +88,16 @@
         <div class="contentside">
             <h1>Crispy Golden Fries</h1>
             <hr>
-            <p>Perfectly crispy on the outside and soft on the inside, these golden fries are the ultimate comfort snack. Ideal for tea-time, parties, or quick cravings.</p>
-            <h3>ingredients:</h3>
+            <p>Perfectly crispy on the outside and soft on the inside, these golden fries are the ultimate comfort
+                snack. Ideal for tea-time, parties, or quick cravings.</p>
+            <h3>ingredients with proportions:</h3>
             <ul>
-                <li>Fresh potatoes (cut into thick strips)</li>
-                <li>Cooking oil (for frying or baking)</li>
-                <li>Salt</li>
-                <li>Black pepper</li>
-                <li>Paprika or chili powder (optional)</li>
-                <li>Garlic powder (optional)</li>
+                <li>Fresh potatoes (3 medium cut into thick strips)</li>
+                <li>Cooking oil (2–3 cups, depending on your pan for frying)</li>
+                <li>Salt (½ teaspoon)</li>
+                <li>Black pepper (¼ teaspoon)</li>
+                <li>Paprika or chili powder (¼ teaspoon optional)</li>
+                <li>Garlic powder (¼ teaspoon optional)</li>
             </ul>
             <h3>Why You’ll Love It:</h3>
             <ul>
@@ -114,6 +114,8 @@
                 <li>Don’t overcrowd the pan while frying.</li>
                 <li>Sprinkle salt immediately after cooking for best flavor.</li>
             </ul>
+            <h3>detailed recipe</h3>
+            <p>To prepare French Fries, peel and cut 3 medium fresh potatoes into thick, even strips and rinse them in cold water to remove excess starch. Pat them completely dry with a kitchen towel to ensure crispiness. Heat enough cooking oil for deep frying (about 2–3 cups, depending on your pan) and fry the potatoes in batches until golden and crispy, or toss them with 2 tablespoons oil and bake at 200°C (400°F) for 25–30 minutes, flipping halfway through. Once cooked, immediately sprinkle with ½ teaspoon salt, ¼ teaspoon black pepper, and if desired, ¼ teaspoon paprika or chili powder and a pinch of garlic powder for extra flavor. Serve hot and enjoy perfectly crispy fries with a soft inside.</p>
             <a href="c3.html"><button>back to snacks</button></a>
 
         </div>
@@ -139,8 +141,8 @@
                 <a href="c1.html">
                     <li>recipes</li>
                 </a>
-                <a href="contact.html">
-                    <li>site map</li>
+                <a href="contact.html#location">
+                    <li>our location</li>
                 </a>
             </ul>
             <a href="gallery.html">galllery</a>
@@ -196,10 +198,8 @@
     <div class="gototop">
         <a href="#top">&And;</a>
     </div>
-
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+    <script src="assets/script.js"></script>
 </body>
+
 
 </html>

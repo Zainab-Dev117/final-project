@@ -4,11 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="Description" content="Enter your description here" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
         integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
@@ -39,9 +35,9 @@
             <a href="bestPurchase.html">best purchase</a>
             <a href="gallery.html">galllery</a>
             <a href="contact.html">contact</a>
-            <div class="dropdown">
-                <a href="categories.html"><button class="dropbtn">Categories</button></a>
-                <div class="dropdown-content">
+            <div class="dropdown-parent">
+                <a href="categories.html"><button class="dropdown-btn">Categories</button></a>
+                <div class="dropdown-links">
                     <a href="c1.html">Healthy Snacks</a>
                     <a href="c2.html">Snacks for Kids</a>
                     <a href="c3.html">Easy on Stomach Snacks</a>
@@ -56,73 +52,95 @@
         <div class="search">
             <a href="subscribe.html">subscribe</a>
         </div>
+        <div class="navmenu"  id="menuToggle" >
+            <i class="fa-solid fa-bars"></i>
+        </div>
     </div>
 
-    <div class="parentofabout">
-        <div class="about-img" id="c6-background">
-            <h1>sweet snacks</h1>
-        </div>
-        <div class="card-heading">
-            <h4>yummy sweet snacks recipes</h4>
-        </div>
-        <div class="parentofcards" id="top">
+    <div class="about-img" id="c6-background">
+        <h1>sweet snacks</h1>
+    </div>
+    <div class="card-heading">
+        <h4>yummy sweet snacks recipes</h4>
+    </div>
+    <div class="parentofcards" id="top">
 
-            <div class="card">
-                <img src="assets/cards-images/c4-img.jpg" alt="Chocolate-kiwi image">
-                <h3>Chocolate-kiwi</h3>
-                <p>This is one of those snacks that looks fancy but takes almost no time to make. Just slice fresh kiwi,
-                    dip each piece into melted dark chocolate, and let it set until perfectly coated. The result? It’s
-                    fruity! It’s chocolaty! It’s sweet with a refreshing tang in every bite!
-                </p>
-                <p>The only way you can mess this up is by dipping wet kiwi slices — make sure to pat them dry first so
-                    the chocolate sticks smoothly and sets beautifully.
-                </p>
-                <a href="dp4.html"><button>get the recipe</button></a>
-            </div>
-            <div class="card">
-                <img src="assets/cards-images/sweet-card2.jpg" alt="Chocolate Lava Mug Cake image">
-                <h3>Chocolate Lava Mug Cake</h3>
-                <p>This is the ultimate quick dessert when you’re craving something rich and chocolatey. Just mix cocoa, flour, milk, and sugar in a mug, add a few chocolate chunks in the center, and microwave for a minute. When you break into it, the warm, gooey chocolate flows out like pure comfort.
-                </p>
-                <p>The only way to mess this up is by overcooking it. Keep an eye on the time so the center stays soft and molten instead of turning dry. Serve it warm for that perfect lava moment.
-                </p>
-                <a href="#"><button>get the recipe</button></a>
-            </div>
-            <div class="card">
-                <img src="assets/cards-images/sweet-card3.jpg" alt="Mini Donut Bites image">
-                <h3>Mini Donut Bites</h3>
-                <p>These soft, bite-sized donuts are perfect when you want something cute and shareable. You can glaze them with chocolate, drizzle white icing, or add colorful sprinkles for that fun bakery-style look. They’re fluffy, sweet, and impossible to eat just one.
-                </p>
-                <p>The only way this goes wrong is by adding too much glaze and making them sticky. Keep the coating light so they stay soft and perfectly balanced.
-                </p>
-                <a href="#"><button>get the recipe</button></a>
-            </div>
-            <div class="card">
-                <img src="assets/cards-images/sweet-card4.jpg" alt="Vanilla Cupcake with Frostingimage">
-                <h3>Vanilla Cupcake with Frosting</h3>
-                <p>This is a classic sweet treat that never disappoints. Soft vanilla sponge topped with creamy buttercream frosting makes every bite smooth, light, and comforting. Add sprinkles or a small topping for an extra aesthetic touch.
-                </p>
-                <p>The only mistake to avoid is overloading the frosting. Keep it neat and balanced so the cupcake stays soft and not overly heavy.
-                </p>
-                <a href="#"><button>get the recipe</button></a>
-            </div>
-            <div class="card">
-                <img src="assets/cards-images/sweet-card5.jpg" alt="Chocolate-Covered Strawberries image">
-                <h3>Chocolate-Covered Strawberries</h3>
-                <p>This is one of the prettiest and easiest sweet snacks you can make. Just dip fresh strawberries into melted chocolate and let them set until glossy and firm. They look fancy, taste amazing, and feel like a mini celebration in every bite.
-                </p>
-                <p>The only mistake to avoid is using wet strawberries — make sure they’re completely dry so the chocolate sticks smoothly and sets perfectly.
-                </p>
-                <a href="#"><button>get the recipe</button></a>
-            </div>
-
+        <div class="card">
+            <img src="assets/cards-images/c4-img.jpg" alt="Chocolate-kiwi image">
+            <h3>Chocolate-kiwi</h3>
+            <p>This is one of those snacks that looks fancy but takes almost no time to make. Just slice fresh kiwi, dip
+                each piece into melted dark chocolate, and let it set until perfectly coated. The result? It’s fruity!
+                It’s chocolaty! It’s sweet with a refreshing tang in every bite!
+            </p>
+            <p>The only way you can mess this up is by dipping wet kiwi slices — make sure to pat them dry first so the
+                chocolate sticks smoothly and sets beautifully.
+            </p>
+            <a href="dp4.html"><button>get the recipe</button></a>
         </div>
-
+        <div class="card">
+            <img src="assets/cards-images/sweet-card2.jpg" alt="Chocolate Lava Mug Cake image">
+            <h3>Chocolate Lava Mug Cake</h3>
+            <p>This is the ultimate quick dessert when you’re craving something rich and chocolatey. Just mix cocoa,
+                flour, milk, and sugar in a mug, add a few chocolate chunks in the center, and microwave for a
+                minute. When you break into it, the warm, gooey chocolate flows out like pure comfort.
+            </p>
+            <p>The only way to mess this up is by overcooking it. Serve it warm for that perfect lava moment.
+            </p>
+            <a href="#"><button>get the recipe</button></a>
+        </div>
+        <div class="card">
+            <img src="assets/cards-images/sweet-card3.jpg" alt="Mini Donut Bites image">
+            <h3>Mini Donut Bites</h3>
+            <p>These soft, bite-sized donuts are perfect when you want something cute and shareable. You can glaze
+                them with chocolate, drizzle white icing, or add colorful sprinkles for that fun bakery-style look.
+                They’re fluffy, sweet, and impossible to eat just one.
+            </p>
+            <p>The only way this goes wrong is by adding too much glaze and making them sticky. Keep the coating
+                light so they stay soft and perfectly balanced.
+            </p>
+            <a href="#"><button>get the recipe</button></a>
+        </div>
+        <div class="card">
+            <img src="assets/cards-images/sweet-card4.jpg" alt="Vanilla Cupcake with Frostingimage">
+            <h3>Vanilla Cupcake with Frosting</h3>
+            <p>This is a classic sweet treat that never disappoints. Soft vanilla sponge topped with creamy
+                buttercream frosting makes every bite smooth, light, and comforting. Add sprinkles or a small
+                topping for an extra aesthetic touch.
+            </p>
+            <p>The only mistake to avoid is overloading the frosting. Keep it neat and balanced so the cupcake stays
+                soft and not overly heavy.
+            </p>
+            <a href="#"><button>get the recipe</button></a>
+        </div>
+        <div class="card">
+            <img src="assets/cards-images/sweet-card5.jpg" alt="Chocolate-Covered Strawberries image">
+            <h3>Chocolate-Covered Strawberries</h3>
+            <p>This is one of the prettiest and easiest sweet snacks you can make. Just dip fresh strawberries into
+                melted chocolate and let them set until glossy and firm. They look fancy, taste amazing, and feel
+                like a mini celebration in every bite.
+            </p>
+            <p>The only mistake to avoid is using wet strawberries — make sure they’re completely dry so the
+                chocolate sticks smoothly and sets perfectly.
+            </p>
+            <a href="#"><button>get the recipe</button></a>
+        </div>
+        <div class="card">
+            <img src="assets/cards-images/sweet-card6.jpg" alt="Dark Chocolate Almond Clusters image">
+            <h3>Dark Chocolate Almond Clusters</h3>
+            <p>This is the perfect sweet snack when you’re craving something indulgent but still want it to feel a little wholesome. Simply melt dark chocolate and mix in a handful of roasted almonds. Spoon small clusters onto parchment paper and set in the fridge until firm.
+            </p>
+            <p>The only thing to avoid is overheating the chocolate, which can make it grainy. Melt it gently and let it set properly for that smooth, glossy finish.
+            </p>
+            <a href="#"><button>get the recipe</button></a>
+        </div>
 
     </div>
 
 
-            <!-- card end footer start -->
+
+
+
+    <!-- card end footer start -->
     <div class="foot-line"></div>
     <div class="footer">
         <div class="child1">
@@ -143,8 +161,8 @@
                 <a href="c1.html">
                     <li>recipes</li>
                 </a>
-                <a href="contact.html">
-                    <li>site map</li>
+                <a href="contact.html#location">
+                    <li>our location</li>
                 </a>
             </ul>
             <a href="gallery.html">galllery</a>
@@ -155,11 +173,21 @@
         <div class="child2">
             <h5>legal</h5>
             <ul>
-                <a href="about.html#terms&conditions"><li>Terms & Conditions</li></a>
-                <a href="about.html#privacy"><li>Privacy Policy</li></a>
-                <a href="about.html#Editorial"><li>Editorial Policy</li></a>
-                <a href="about.html#contest"><li>Contest</li></a>
-                <a href="about.html#sellorshare"><li>do not sell or share my information</li></a>
+                <a href="about.html#terms&conditions">
+                    <li>Terms & Conditions</li>
+                </a>
+                <a href="about.html#privacy">
+                    <li>Privacy Policy</li>
+                </a>
+                <a href="about.html#Editorial">
+                    <li>Editorial Policy</li>
+                </a>
+                <a href="about.html#contest">
+                    <li>Contest</li>
+                </a>
+                <a href="about.html#sellorshare">
+                    <li>do not sell or share my information</li>
+                </a>
             </ul>
             <div class="foot-btn">
                 <a href="subscribe.html"><button>subscribe</button></a>
@@ -172,10 +200,14 @@
             <p>Quick Bites. Pure Delight.</p>
             <input type="text" placeholder="Search..">
             <div class="foot-icons">
-                <a href="https://www.tiktok.com/@foodfusionpk?lang=en" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
-                <a href="https://www.pinterest.com/cookingclassy/food-photography/" target="_blank"><i class="fa-brands fa-pinterest"></i></a>
-                <a href="https://www.facebook.com/FoodFusionPK/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
-                <a href="https://www.instagram.com/foodfusionpk/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.tiktok.com/@foodfusionpk?lang=en" target="_blank"><i
+                        class="fa-brands fa-tiktok"></i></a>
+                <a href="https://www.pinterest.com/cookingclassy/food-photography/" target="_blank"><i
+                        class="fa-brands fa-pinterest"></i></a>
+                <a href="https://www.facebook.com/FoodFusionPK/" target="_blank"><i
+                        class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/foodfusionpk/" target="_blank"><i
+                        class="fa-brands fa-instagram"></i></a>
                 <a href="https://www.youtube.com/@FoodfusionPk" target="_blank"><i class="fa-brands fa-youtube"></i></a>
             </div>
 
@@ -187,8 +219,10 @@
         <a href="#top">&And;</a>
     </div>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+    <script src="assets/script.js"></script>
 </body>
+
+
+
 
 </html>

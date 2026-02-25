@@ -5,20 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="Description" content="Enter your description here" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
         integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="assets/style.css">
     <title>Chia Berry Energy Bowl</title>
 </head>
 
 <body>
-      <div class="navbar">
+    <div class="navbar">
         <div class="logo">
             <h2>quick snacks</h2>
         </div>
@@ -39,9 +35,9 @@
             <a href="bestPurchase.html">best purchase</a>
             <a href="gallery.html">galllery</a>
             <a href="contact.html">contact</a>
-            <div class="dropdown">
-                <a href="categories.html"><button class="dropbtn">Categories</button></a>
-                <div class="dropdown-content">
+            <div class="dropdown-parent">
+                <a href="categories.html"><button class="dropdown-btn">Categories</button></a>
+                <div class="dropdown-links">
                     <a href="c1.html">Healthy Snacks</a>
                     <a href="c2.html">Snacks for Kids</a>
                     <a href="c3.html">Easy on Stomach Snacks</a>
@@ -56,6 +52,9 @@
         <div class="search">
             <a href="subscribe.html">subscribe</a>
         </div>
+        <div class="navmenu"  id="menuToggle" >
+            <i class="fa-solid fa-bars"></i>
+        </div>
     </div>
     <!-- navbar -->
     <div class="dp-parent">
@@ -64,60 +63,85 @@
                 <img src="assets/cards-images/c1-img.jpg" alt="chia bowl images">
             </div>
             <div class="img-bottom-text">
-                   <table>
-                <thead>
-                    <tr>
-                        <th>prep time.</th>
-                        <th>cook time.</th>
-                        <th>total time taken.</th>
-                        <th>servings.</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <th>10 mins</th>
-                        <th>5 mins</th>
-                        <th>15 minutes</th>
-                        <th>2 person</th>
-                    </tr>
-                </tbody>
-            </table>
-               
+                <table>
+                    <thead>
+                        <tr>
+                            <th>prep time.</th>
+                            <th>cook time.</th>
+                            <th>total time taken.</th>
+                            <th>servings.</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th>10 mins</th>
+                            <th>5 mins</th>
+                            <th>15 minutes</th>
+                            <th>2 person</th>
+                        </tr>
+                    </tbody>
+                </table>
+
             </div>
-            
+
         </div>
         <div class="contentside">
             <h1>Chia Berry Energy Bowl</h1>
             <hr>
             <p>A delicious and nutritious energy bowl made with chia seeds, fresh berries, and Greek yogurt.</p>
-            <h3>ingredients:</h3>
+            <h3>ingredients with proportions:</h3>
             <ul>
-                <li>Organic chia seeds</li>
-                <li>Fresh strawberries</li>
-                <li>Blueberries</li>
-                <li>Unsweetened Greek yogurt</li>
-                <li>Raw honey</li>
-                <li>Almond slices</li>
-                <li>Pumpkin seeds</li>
+                <li>Organic chia seeds (3 tablespoons)</li>
+                <li>Fresh strawberries (½ cup)</li>
+                <li>Blueberries (¼ cup)</li>
+                <li>Unsweetened Greek yogurt (1 cup)</li>
+                <li>Raw honey (1 tablespoon)</li>
+                <li>Almond slices (1 tablespoon)</li>
+                <li>Pumpkin seeds (1 tablespoon)</li>
             </ul>
             <h3>Benefits:</h3>
             <ul>
                 <li>High in fiber and protein</li>
-                <li>Rich in antioxidants for immune support</li>
+                <li>Quick and easy to prepare.</li>
                 <li>Provides omega-3 for heart health</li>
+                <li>Packed with vitamins and minerals.</li>
+                <li>Seeds and nuts support heart health.</li>
+                <li>Rich in antioxidants for immune support</li>
+                <li>Gives natural energy without sugar crashes.</li>
+                <li>Berries provide antioxidants for overall health.</li>
             </ul>
             <h3>Quality Tips:</h3>
             <ul>
-                <li>Use fresh, organic berries for best taste</li>
                 <li>Choose unsweetened Greek yogurt</li>
                 <li>Select raw honey for natural sweetness</li>
+                <li>Use fresh, organic berries for best taste</li>
+                <li>Soak chia seeds longer for an even creamier texture.</li>
+                <li>Add a sprinkle of cinnamon or cocoa powder for extra flavor.</li>
+                <li>Swap Greek yogurt with plant-based yogurt for a vegan version.</li>
             </ul>
+            <h3>Detailed recipe:</h3>
+            <p>The Chia Berry Energy Bowl is a wholesome, protein-packed snack or breakfast that combines creamy Greek
+                yogurt with nutrient-rich chia seeds and fresh berries. To prepare, start by mixing 3 tablespoons of
+                organic chia seeds into 1 cup of unsweetened Greek yogurt. Stir thoroughly so that the chia seeds are
+                evenly distributed. Cover the mixture and refrigerate for at least 2 hours, or overnight for best
+                results, allowing the chia seeds to absorb the liquid and thicken, creating a creamy, pudding-like
+                texture.
+            </p>
+            <p>Once the chia mixture is fully set, it’s time to add the toppings. Gently layer ½ cup of freshly sliced
+                strawberries and ¼ cup of plump blueberries on top for a burst of natural sweetness and vibrant color.
+                Drizzle 1 tablespoon of raw honey over the berries to enhance the flavor while keeping it healthy. For
+                added texture and nutrition, sprinkle 1 tablespoon of almond slices and 1 tablespoon of pumpkin seeds on
+                top, giving each bite a satisfying crunch. Serve the Chia Berry Energy Bowl chilled for a refreshing and
+                energizing treat. Rich in protein, fiber, vitamins, and antioxidants, this bowl is perfect for a
+                nourishing start to the day or a mid-day pick-me-up.
+            </p>
+
             <a href="c1.html"><button>back to snacks</button></a>
 
         </div>
     </div>
     <!-- content end -->
-        <div class="foot-line"></div>
+    <div class="foot-line"></div>
     <div class="footer">
         <div class="child1">
             <h5>company</h5>
@@ -137,8 +161,8 @@
                 <a href="c1.html">
                     <li>recipes</li>
                 </a>
-                <a href="contact.html">
-                    <li>site map</li>
+                <a href="contact.html#location">
+                    <li>our location</li>
                 </a>
             </ul>
             <a href="gallery.html">galllery</a>
@@ -149,11 +173,21 @@
         <div class="child2">
             <h5>legal</h5>
             <ul>
-                <a href="about.html#terms&conditions"><li>Terms & Conditions</li></a>
-                <a href="about.html#privacy"><li>Privacy Policy</li></a>
-                <a href="about.html#Editorial"><li>Editorial Policy</li></a>
-                <a href="about.html#contest"><li>Contest</li></a>
-                <a href="about.html#sellorshare"><li>do not sell or share my information</li></a>
+                <a href="about.html#terms&conditions">
+                    <li>Terms & Conditions</li>
+                </a>
+                <a href="about.html#privacy">
+                    <li>Privacy Policy</li>
+                </a>
+                <a href="about.html#Editorial">
+                    <li>Editorial Policy</li>
+                </a>
+                <a href="about.html#contest">
+                    <li>Contest</li>
+                </a>
+                <a href="about.html#sellorshare">
+                    <li>do not sell or share my information</li>
+                </a>
             </ul>
             <div class="foot-btn">
                 <a href="subscribe.html"><button>subscribe</button></a>
@@ -166,23 +200,25 @@
             <p>Quick Bites. Pure Delight.</p>
             <input type="text" placeholder="Search..">
             <div class="foot-icons">
-                <a href="https://www.tiktok.com/@foodfusionpk?lang=en" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
-                <a href="https://www.pinterest.com/cookingclassy/food-photography/" target="_blank"><i class="fa-brands fa-pinterest"></i></a>
-                <a href="https://www.facebook.com/FoodFusionPK/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
-                <a href="https://www.instagram.com/foodfusionpk/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.tiktok.com/@foodfusionpk?lang=en" target="_blank"><i
+                        class="fa-brands fa-tiktok"></i></a>
+                <a href="https://www.pinterest.com/cookingclassy/food-photography/" target="_blank"><i
+                        class="fa-brands fa-pinterest"></i></a>
+                <a href="https://www.facebook.com/FoodFusionPK/" target="_blank"><i
+                        class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/foodfusionpk/" target="_blank"><i
+                        class="fa-brands fa-instagram"></i></a>
                 <a href="https://www.youtube.com/@FoodfusionPk" target="_blank"><i class="fa-brands fa-youtube"></i></a>
             </div>
 
         </div>
     </div>
-
-
     <div class="gototop">
         <a href="#top">&And;</a>
     </div>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+    <script src="assets/script.js"></script>
 </body>
+
 
 </html>

@@ -4,11 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="Description" content="Enter your description here" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
         integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
@@ -16,6 +12,7 @@
     <link rel="stylesheet" href="assets/style.css">
     <title>categories</title>
 </head>
+
 
 <body>
     <div class="navbar">
@@ -39,9 +36,9 @@
             <a href="bestPurchase.html">best purchase</a>
             <a href="gallery.html">galllery</a>
             <a href="contact.html">contact</a>
-            <div class="dropdown">
-                <a href="categories.html"><button class="dropbtn">Categories</button></a>
-                <div class="dropdown-content">
+            <div class="dropdown-parent">
+                <a href="categories.html"><button class="dropdown-btn">Categories</button></a>
+                <div class="dropdown-links">
                     <a href="c1.html">Healthy Snacks</a>
                     <a href="c2.html">Snacks for Kids</a>
                     <a href="c3.html">Easy on Stomach Snacks</a>
@@ -56,73 +53,105 @@
         <div class="search">
             <a href="subscribe.html">subscribe</a>
         </div>
+         <div class="navmenu"  id="menuToggle" >
+            <i class="fa-solid fa-bars"></i>
+        </div>
+
     </div>
 
 
-        <div class="parentofabout">
+    <div class="parentofabout">
         <div class="about-img" id="imgofcategories">
             <h1>categories</h1>
         </div>
         <div class="about-content">
             <h3>about our categories</h3>
-            <p>At Quick Snacks, our categories are thoughtfully designed to satisfy every craving and taste preference. We offer a wide variety of options, from crispy and savory fast food favorites to sweet treats and refreshing beverages. Each category is carefully organized to make browsing simple and enjoyable, allowing our customers to quickly find exactly what they’re looking for. Whether you’re in the mood for cheesy pizzas, juicy burgers, crunchy fries, delicious wraps, or creamy milkshakes, our menu is structured to provide convenience, variety, and quality in every section. We continuously expand and refine our categories to introduce new flavors and trending items while maintaining the classics our customers love. Our goal is to ensure that every category delivers freshness, great taste, and a satisfying experience.</p>
+            <p>At Quick Snacks, our categories are thoughtfully designed to satisfy every craving and taste preference.
+                We offer a wide variety of options, from crispy and savory fast food favorites to sweet treats and
+                refreshing beverages. Each category is carefully organized to make browsing simple and enjoyable,
+                allowing our customers to quickly find exactly what they’re looking for. Whether you’re in the mood for
+                cheesy pizzas, juicy burgers, crunchy fries, delicious wraps, or creamy milkshakes, our menu is
+                structured to provide convenience, variety, and quality in every section. We continuously expand and
+                refine our categories to introduce new flavors and trending items while maintaining the classics our
+                customers love. Our goal is to ensure that every category delivers freshness, great taste, and a
+                satisfying experience.</p>
 
             <h3>1.Healthy Snacks</h3>
-            <p>Our Healthy Snacks category is perfect for those who want to enjoy delicious flavors without compromising on nutrition. Here, you’ll find light, balanced options made with fresh ingredients, whole grains, nuts, fruits, and wholesome toppings. These snacks are designed to provide energy, support a healthy lifestyle, and keep you feeling satisfied throughout the day.</p>
+            <p>Our Healthy Snacks category is perfect for those who want to enjoy delicious flavors without compromising
+                on nutrition. Here, you’ll find light, balanced options made with fresh ingredients, whole grains, nuts,
+                fruits, and wholesome toppings. These snacks are designed to provide energy, support a healthy
+                lifestyle, and keep you feeling satisfied throughout the day.</p>
 
             <h3>2.Snacks for Kids</h3>
-            <p>Snacks for Kids are specially selected to be fun, tasty, and kid-friendly. This category includes colorful, bite-sized treats with mild flavors that children love. From mini sandwiches and cheesy bites to sweet treats and refreshing drinks, everything is prepared with quality ingredients and safety in mind.</p>
+            <p>Snacks for Kids are specially selected to be fun, tasty, and kid-friendly. This category includes
+                colorful, bite-sized treats with mild flavors that children love. From mini sandwiches and cheesy bites
+                to sweet treats and refreshing drinks, everything is prepared with quality ingredients and safety in
+                mind.</p>
 
             <h3>3.Easy on Stomach Snacks</h3>
-            <p>Our Easy on Stomach Snacks category is ideal for those who prefer light and gentle food options. These snacks are simple, less spicy, and easy to digest, making them perfect for quick meals, light cravings, or when you want something comforting and mild without feeling heavy.</p>
+            <p>Our Easy on Stomach Snacks category is ideal for those who prefer light and gentle food options. These
+                snacks are simple, less spicy, and easy to digest, making them perfect for quick meals, light cravings,
+                or when you want something comforting and mild without feeling heavy.</p>
 
             <h3>4.Smoothies & Drinks</h3>
-            <p>The Smoothies & Drinks category offers refreshing and energizing beverages made from fresh fruits, creamy blends, and flavorful ingredients. From rich milkshakes to healthy fruit smoothies and chilled drinks, this section is perfect for cooling down, boosting energy, and complementing your favorite snacks.</p>
+            <p>The Smoothies & Drinks category offers refreshing and energizing beverages made from fresh fruits, creamy
+                blends, and flavorful ingredients. From rich milkshakes to healthy fruit smoothies and chilled drinks,
+                this section is perfect for cooling down, boosting energy, and complementing your favorite snacks.</p>
 
             <h3>5.Protein Snacks / Gym Snacks</h3>
-            <p>Protein Snacks are designed for fitness lovers and active individuals who need extra energy and strength. This category includes high-protein, nutrient-rich options that help support muscle recovery and keep you energized throughout workouts or busy days. These snacks are both filling and performance-focused.</p>
+            <p>Protein Snacks are designed for fitness lovers and active individuals who need extra energy and strength.
+                This category includes high-protein, nutrient-rich options that help support muscle recovery and keep
+                you energized throughout workouts or busy days. These snacks are both filling and performance-focused.
+            </p>
 
             <h3>6.Sweet Snacks</h3>
-            <p>Our Sweet Snacks category is all about satisfying your dessert cravings. From soft pastries and chocolate treats to creamy delights and sugary favorites, these snacks are made to bring joy in every bite. Perfect for celebrations, tea-time, or simply treating yourself.</p>
+            <p>Our Sweet Snacks category is all about satisfying your dessert cravings. From soft pastries and chocolate
+                treats to creamy delights and sugary favorites, these snacks are made to bring joy in every bite.
+                Perfect for celebrations, tea-time, or simply treating yourself.</p>
 
-                <div class="categories">
-        <div class="c-head">
-            <h2>explore CATEGORIES</h2>
-        </div>
-        <div class="c-wisper">
-            <div class="c-box">
-                <a href="c1.html"><img src="assets/catogories/cat-1.jpg" alt="category image"></a>
-                <h5>Healthy Snacks</h5>
-            </div>
-            <div class="c-box">
-                <a href="c2.html"><img src="assets/catogories/cat-2.jpg" alt="category image"></a>
-                <h5>Snacks for Kids</h5>
-            </div>
-            <div class="c-box">
-                <a href="c3.html"><img src="assets/catogories/cat-3.webp" alt="category image"></a>
-                <h5>Easy on Stomach Snacks</h5>
-            </div>
-            <div class="c-box">
-                <a href="c4.html"><img src="assets/catogories/cat-4.webp" alt="category image"></a>
-                <h5>Smoothies&Drinks</h5>
-            </div>
-            <div class="c-box">
-                <a href="c5.html"><img src="assets/catogories/cat-5.avif" alt="category image"></a>
-                <h5>Protein Snacks / Gym Snacks</h5>
-            </div>
-            <div class="c-box">
-                <a href="c6.html"><img src="assets/catogories/cat-6.webp" alt="category image"></a>
-                <h5>Sweet Snacks</h5>
-            </div>
-        </div>
+            <div class="categories">
+                <div class="c-head">
+                    <h2>explore CATEGORIES</h2>
+                </div>
+                <div class="c-wisper">
+                    <div class="c-box">
+                        <a href="c1.html"><img src="assets/catogories/cat-1.jpg" alt="category image"></a>
+                        <h5>Healthy Snacks</h5>
+                    </div>
+                    <div class="c-box">
+                        <a href="c2.html"><img src="assets/catogories/cat-2.jpg" alt="category image"></a>
+                        <h5>Snacks for Kids</h5>
+                    </div>
+                    <div class="c-box">
+                        <a href="c3.html"><img src="assets/catogories/cat-3.webp" alt="category image"></a>
+                        <h5>Easy on Stomach Snacks</h5>
+                    </div>
+                    <div class="c-box">
+                        <a href="c4.html"><img src="assets/catogories/cat-4.webp" alt="category image"></a>
+                        <h5>Smoothies&Drinks</h5>
+                    </div>
+                    <div class="c-box">
+                        <a href="c5.html"><img src="assets/catogories/cat-5.avif" alt="category image"></a>
+                        <h5>Protein Snacks / Gym Snacks</h5>
+                    </div>
+                    <div class="c-box">
+                        <a href="c6.html"><img src="assets/catogories/cat-6.webp" alt="category image"></a>
+                        <h5>Sweet Snacks</h5>
+                    </div>
+                </div>
 
-    </div>
+            </div>
 
             <h3>our goal to achieve</h3>
-            <p>At Quick Snacks, our goal is to provide delicious, high-quality snacks that bring convenience and satisfaction to every customer. We aim to create a wide variety of options that cater to different tastes, lifestyles, and dietary needs — from healthy choices to indulgent treats. Our focus is on freshness, quality ingredients, and great flavor, while ensuring a smooth and enjoyable online experience. We strive to become a trusted destination where customers can always find tasty, reliable, and affordable snack options in one place.</p>
-          
+            <p>At Quick Snacks, our goal is to provide delicious, high-quality snacks that bring convenience and
+                satisfaction to every customer. We aim to create a wide variety of options that cater to different
+                tastes, lifestyles, and dietary needs — from healthy choices to indulgent treats. Our focus is on
+                freshness, quality ingredients, and great flavor, while ensuring a smooth and enjoyable online
+                experience. We strive to become a trusted destination where customers can always find tasty, reliable,
+                and affordable snack options in one place.</p>
+
         </div>
-        
+
     </div>
 
 
@@ -147,8 +176,8 @@
                 <a href="c1.html">
                     <li>recipes</li>
                 </a>
-                <a href="contact.html">
-                    <li>site map</li>
+                <a href="contact.html#location">
+                    <li>our location</li>
                 </a>
             </ul>
             <a href="gallery.html">galllery</a>
@@ -159,11 +188,21 @@
         <div class="child2">
             <h5>legal</h5>
             <ul>
-                <a href="about.html#terms&conditions"><li>Terms & Conditions</li></a>
-                <a href="about.html#privacy"><li>Privacy Policy</li></a>
-                <a href="about.html#Editorial"><li>Editorial Policy</li></a>
-                <a href="about.html#contest"><li>Contest</li></a>
-                <a href="about.html#sellorshare"><li>do not sell or share my information</li></a>
+                <a href="about.html#terms&conditions">
+                    <li>Terms & Conditions</li>
+                </a>
+                <a href="about.html#privacy">
+                    <li>Privacy Policy</li>
+                </a>
+                <a href="about.html#Editorial">
+                    <li>Editorial Policy</li>
+                </a>
+                <a href="about.html#contest">
+                    <li>Contest</li>
+                </a>
+                <a href="about.html#sellorshare">
+                    <li>do not sell or share my information</li>
+                </a>
             </ul>
             <div class="foot-btn">
                 <a href="subscribe.html"><button>subscribe</button></a>
@@ -176,10 +215,14 @@
             <p>Quick Bites. Pure Delight.</p>
             <input type="text" placeholder="Search..">
             <div class="foot-icons">
-                <a href="https://www.tiktok.com/@foodfusionpk?lang=en" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
-                <a href="https://www.pinterest.com/cookingclassy/food-photography/" target="_blank"><i class="fa-brands fa-pinterest"></i></a>
-                <a href="https://www.facebook.com/FoodFusionPK/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
-                <a href="https://www.instagram.com/foodfusionpk/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.tiktok.com/@foodfusionpk?lang=en" target="_blank"><i
+                        class="fa-brands fa-tiktok"></i></a>
+                <a href="https://www.pinterest.com/cookingclassy/food-photography/" target="_blank"><i
+                        class="fa-brands fa-pinterest"></i></a>
+                <a href="https://www.facebook.com/FoodFusionPK/" target="_blank"><i
+                        class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/foodfusionpk/" target="_blank"><i
+                        class="fa-brands fa-instagram"></i></a>
                 <a href="https://www.youtube.com/@FoodfusionPk" target="_blank"><i class="fa-brands fa-youtube"></i></a>
             </div>
 
@@ -190,17 +233,7 @@
     <div class="gototop">
         <a href="#top">&And;</a>
     </div>
-
-
-
-
-
-
-
-
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+    <script src="assets/script.js"></script>
 </body>
 
 </html>
